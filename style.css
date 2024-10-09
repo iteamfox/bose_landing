@@ -118,7 +118,6 @@
   content: url("../images/sound-waves.svg");
   display: block;
   width: 32px;
-  height: 28px;
   margin-bottom: 16px;
 }
 @media (min-width: 744px) {
@@ -587,7 +586,7 @@
 .icon--phone {
   background-image: url(../images/icons/phone.svg);
 }
-.icon--cross {
+.icon--close {
   background-image: url(../images/icons/close.svg);
 }
 
@@ -600,6 +599,55 @@
     width: 190px;
     height: 24px;
   }
+}
+
+.recommended__item:not(:last-child) {
+  margin-bottom: 48px;
+}
+@media (min-width: 744px) {
+  .recommended__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 1260px) {
+  .recommended__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+.recommended__card {
+  width: fit-content;
+  margin: 0 auto;
+  transition: transform 0.5s linear;
+}
+.recommended__image {
+  width: 100%;
+  margin-bottom: 32px;
+}
+@media (min-width: 744px) {
+  .recommended__image {
+    width: 392px;
+  }
+}
+@media (min-width: 1260px) {
+  .recommended__image {
+    width: 324px;
+  }
+}
+.recommended__image:hover {
+  transform: scale(1.2);
+}
+.recommended__name {
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.recommended__desc {
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.recommended__price {
+  line-height: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
