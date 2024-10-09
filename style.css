@@ -650,4 +650,13 @@
   line-height: 22px;
 }
 
+.categories__product {
+  margin-bottom: 40px;
+}
+@media (min-width: 744px) {
+  .categories__product:not(:last-child) {
+    margin-bottom: 64px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
