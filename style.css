@@ -467,7 +467,7 @@
 }
 
 .menu {
-  background-color: #e5e5e5;
+  background-color: #E8EFF9;
 }
 .menu__content {
   box-sizing: border-box;
@@ -617,7 +617,7 @@
 .recommended__card {
   width: fit-content;
   margin: 0 auto;
-  transition: transform 0.5s linear;
+  transition: transform 0.3s linear;
 }
 .recommended__image {
   width: 100%;
