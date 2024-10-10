@@ -718,6 +718,20 @@
   cursor: pointer;
   transition: all 0.3s linear;
 }
+@media (min-width: 1260px) {
+  .button {
+    width: 324px;
+    height: 56px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 744px) {
+  .button {
+    width: 392px;
+    height: 56px;
+    margin: 0 auto;
+  }
+}
 .button:hover {
   background-color: #fff;
   color: #292929;

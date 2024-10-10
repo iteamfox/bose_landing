@@ -1,3 +1,4 @@
+@use '../utils/mixin' as *; 
 
 .button {
     display: flex;
@@ -14,7 +15,20 @@
     color: #fff;
     cursor: pointer;
     transition: all 0.3s linear;
-  
+
+    @include onDesktop() { 
+        width: 324px;
+        height: 56px;      
+        margin: 0 auto;   
+    }
+
+    @include onTablet() {  
+        width: 392px;
+        height: 56px;        
+        margin: 0 auto;   
+    }
+
+      
     &:hover {
       background-color: #fff;
       color: #292929;      
