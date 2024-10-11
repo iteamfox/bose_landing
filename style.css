@@ -169,14 +169,14 @@ table {
   }
 }
 .header__title::before {
-  content: url("../images/sound-waves.svg");
+  content: url("./images/sound-waves.svg");
   display: block;
   width: 32px;
   margin-bottom: 16px;
 }
 @media (min-width: 744px) {
   .header__title::before {
-    content: url("../images/sound-waves.svg");
+    content: url("./images/sound-waves.svg");
     width: 40px;
     height: 80px;
     margin-bottom: 40px;
@@ -627,21 +627,21 @@ table {
   color: #396bb7;
 }
 .icon--menu {
-  background-image: url(../images/icons/burger-menu.svg);
+  background-image: url(./images/icons/burger-menu.svg);
 }
 @media (min-width: 744px) {
   .icon--menu {
-    background-image: url(../images/icons/burger-menu-big.svg);
+    background-image: url(./images/icons/burger-menu-big.svg);
   }
 }
 .icon--menu:hover {
-  background-image: url(../images/icons/burger-hover.svg);
+  background-image: url(./images/icons/burger-hover.svg);
 }
 .icon--phone {
-  background-image: url(../images/icons/phone.svg);
+  background-image: url(./images/icons/phone.svg);
 }
 .icon--close {
-  background-image: url(../images/icons/close.svg);
+  background-image: url(./images/icons/close.svg);
 }
 
 .logo__image {
