@@ -836,4 +836,24 @@
   font-family: inherit;
 }
 
+.footer {
+  background-image: url(../images/footer-bg.png);
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  position: sticky;
+  bottom: 0;
+  z-index: -2;
+}
+@media (min-width: 744px) {
+  .footer {
+    height: 400px;
+  }
+}
+@media (min-width: 1260px) {
+  .footer {
+    height: 460px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
