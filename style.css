@@ -118,7 +118,7 @@ table {
 }
 
 .header {
-  background-image: url(../images/header-bg.png);
+  background-image: url(../images/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 33%;
@@ -891,7 +891,7 @@ table {
 }
 
 .footer {
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footer-bg.jpeg);
   background-position: center center;
   background-size: cover;
   height: 200px;
